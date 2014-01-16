@@ -1,8 +1,22 @@
-js-winter-assignment-2
-======================
+# Javascript Winter 2014: Assignment #2 (Wednesday)
 
-PCS JS Winter 2014: Assignment 2 (Wed)
+##Git/ Github Instructions
+1. Make sure you are in the directory where you want your homework project directory to be stored
+2. `Git clone 'urlGoesHere'`
+3. cd to the project directory
+4. `git checkout -b branchWithYourNameOnIt`
+5. `mkdir dirWithYourNameOnIt`
+6. `touch assignment2.js` to create the file with your homework in it. 
+7. Do the exercises below (don't forget to save)
+8. `git add assignment2.js` to add changes
+9. `git commit -m "commit message here`
+10. `git push` (make sure you are still on the branch with your name on it before you push)
+11. Submit a pull request on github
+12. Look at feedback
+13. Make changes
+14. Git add, then commit, then push (There is no need to get rid of the previous pull request and make a new one. Just push your new changes. The pull request will automatically update)
 
+## Assignment 2
 ### Part 1
 1. Write an `if` statement that prints the message "Javascript is awesome" to the console. 
 
@@ -28,3 +42,11 @@ PCS JS Winter 2014: Assignment 2 (Wed)
 1. Declare an arbitrary string of arbitrary length. 
 2. Use a loop and a condition (of some sort). 
 3. Print out the string, reversed and with its vowels deleted.
+
+### Part 7 
+1. Using one console.log statement, print out all of the numbers from 1 and 20. 
+    - If the number is divisible by 3, print "Fizz" instead of the number 
+    - If it's not divisible by 3, just print the number.
+2. Add an else if statement to check if the number is divisible by 5, and if it is, print out "Buzz" instead of the number.
+3. Add another if statement somewhere in your code that checks for numbers that are divisible by both 3 and 5. For these special cases, print "FizzBuzz".
+
