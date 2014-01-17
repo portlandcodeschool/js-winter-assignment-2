@@ -62,7 +62,6 @@ for (var i = arbitraryString.length - 1; i >= 0; i--){
                 case 'i':
                 case 'o':
                 case 'u':
-                case 'y':
                 break;
                 default: reversedStringNoVowels += arbitraryString[i];
         }
