@@ -9,7 +9,8 @@ var index = 1;
 var cheese = "pepper jack";
 var pizzaSize = 18;
 var arbitraryString = "arbitrary string";
-var reversedString= "";
+var reversedString = "";
+var reversedStringNoVowels = "";
 var output;
 
 //Part 1
@@ -55,10 +56,20 @@ for (var i = 1; i <= index; i ++)
 //Part 6
 console.log("\nPart 6:");
 for (var i = arbitraryString.length - 1; i >= 0; i--){
+        switch (arbitraryString[i]){
+                case 'a':
+                case 'e':
+                case 'i':
+                case 'o':
+                case 'u':
+                case 'y':
+                break;
+                default: reversedStringNoVowels += arbitraryString[i];
+        }
 	reversedString += arbitraryString[i];
 }
-
-console.log("\n" + reversedString + "\n");
+console.log("\n" + reversedString );
+console.log(reversedStringNoVowels);
 
 //Part 7
 console.log("\nPart 7:");
