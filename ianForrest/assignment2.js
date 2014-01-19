@@ -1,4 +1,4 @@
-// Full Stack JavaScript, Winter 2013, Assignment 2 by Ian Forrest
+// Full Stack JavaScript, Winter 2014, Assignment 2 by Ian Forrest
 // Part 1
 if (true) {
 	console.log("Javascript is awesome. And rad.");
