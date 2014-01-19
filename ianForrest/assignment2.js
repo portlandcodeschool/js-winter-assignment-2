@@ -31,13 +31,13 @@ var mmmPizza = "I just ate a slice of a " + pizzaSize + "\" pizza.";
 
 if (pizzaSize > 8 && pizzaSize < 19) { 
 	do {
-		console.log(mmmPizza);
-		slices +=1;
+	console.log(mmmPizza);
+	slices +=1;
 	} while (slices < 6);
 } else if (pizzaSize > 18) {
 	do {
-		console.log(mmmPizza);
-		slices +=1;
+	console.log(mmmPizza);
+	slices +=1;
 	} while (slices < 4);
 } else if (pizzaSize < 9) {
 		console.log("That pizza is too small. What is this? A pizza for ants?");
