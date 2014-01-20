@@ -1,12 +1,12 @@
 //Part 1
-var today = "monday" ;
+var today = "monday";
 
 if(today === "monday"){
 	console.log("JavaScript is super Awesome!");
 };
 
 //Part 2
-var i = 1
+var i = 1;
 
 while(i < 11){
 	console.log("The current value of i is " + i);
