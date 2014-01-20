@@ -1,10 +1,10 @@
-//write an "if" statement that prints this message to the console: "Javascript is awesome"
+//PART 1
 
 if (true) {
   console.log("Javascript is awesome");
 }
 
-//
+//PART 2
 
 var i = 1;
 while (i <= 10) {
@@ -12,14 +12,13 @@ while (i <= 10) {
   i = i + 1;
 }
 
-//write a for loop that does the exact same thing as the previous while loop
+//PART 3
 
 for (var i = 1; i <= 10 ; i = i + 1){
   console.log(i);
 }
 
-//create a variable called cheese and set it equal to any name of cheese that you like. If you need help, go to [cheese.com](http://www.cheese.com/alphabetical/)
-//create an if else statement that tests for whether or not the name of cheese is longer than 8 characters. If the cheese is longer than eight characters, print "that must be some stinky cheese!" to the console. Otherwise, print "That cheese might taste nice on some pizza!" to the console. 
+//PART 4
 
 var cheese = "Allgauer Emmentaler";
 
@@ -29,8 +28,7 @@ if (cheese.length > 8){
   console.log("That cheese might taste nice on some pizza!");
 }
 
-
-//prompt here
+//PART 5
 
 var pizzaSize = 9;
 
@@ -48,7 +46,24 @@ if (pizzaSize > 8){
   console.log("That pizza was just too small");
 }
 
-// Fizzbuzz
+//PART 6
+
+var str = "I am the very model of a modern major general!";
+var output = "";
+var c;
+ 
+ 
+for (var i = str.length - 1; i >= 0; i--) {
+  c = str[i].toLowerCase();
+  if (c !== 'a' && c !== 'e' && c !== 'i' && c !== 'o' && c !== 'u') {
+    output += str[i];
+  }
+}
+ 
+console.log(output);
+
+
+//PART 7
 
 for (i=1; i<=20; i++) { 
   if (i % 3 === 0 && i % 5 === 0 ){
