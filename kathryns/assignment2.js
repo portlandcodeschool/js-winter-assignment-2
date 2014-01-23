@@ -53,23 +53,26 @@ if (pizzaSize > 18) {
 //Part 6
 var word = 'Shennanigans';
 var backwardsWord = "";
+var output = "";
 
 for (var i = word.length - 1; i >= 0; i -= 1) { 
-	backwardsWord = backwardsWord + word[i];
+	backwardsWord = backwardsWord + word[i].toLowerCase();
 	/*console.log(i);*/
 }
 
 for (var x = 0 ; x < backwardsWord.length; x ++) {
-	if (
+	if ( 	
 		backwardsWord[x] !== 'a' && 
 		backwardsWord[x] !== 'e' &&
 		backwardsWord[x] !== 'i' &&
 		backwardsWord[x] !== 'o' &&
 		backwardsWord[x] !== 'u'
 		) {
-			console.log(backwardsWord[x]);
+		output += backwardsWord[x];
 	}
 }
+
+console.log(output); 
 
 //Part 7
 var i = 1
